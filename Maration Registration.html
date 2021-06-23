@@ -9,15 +9,32 @@
 </head>
 
 <body>
-    <h2>Race Registration!</h2>
+    <h1>Race Registration!</h1>
     <form action="/dummy">
 
-        <label for="first">First Name</label>
-        <input type="text" name="first" id="first" required>
+        <p>
+            <label for="first">First Name</label>
+            <input type="text" name="firstname" id="first" required>
 
 
-        <label for="last">last Name</label>
-        <input type="text" name="last" id="last" required>
+            <label for="last">last Name</label>
+            <input type="text" name="lastname" id="last" required>
+
+        </p>
+
+        <input type="radio" id="funrun" name="race">
+        <label for="funrun">Fun Run 5k</label><br>
+
+        <input type="radio" id="hlaf" name="race">
+        <label for="half">Half Marathon</label><br>
+
+        <input type="radio" id="full" name="race">
+        <label for="full">Full Marathon</label><br>
+
+
+
+
+
 
         <p>
             <label for="email">Email</label>
