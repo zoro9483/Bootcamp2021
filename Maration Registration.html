@@ -12,7 +12,7 @@
     <h1>Race Registration!</h1>
     <form action="/dummy">
 
-        <p>
+        <div>
             <label for="first">First Name</label>
             <input type="text" name="firstname" id="first" required>
 
@@ -20,39 +20,43 @@
             <label for="last">last Name</label>
             <input type="text" name="lastname" id="last" required>
 
-        </p>
+        </div>
 
-        <input type="radio" id="funrun" name="race">
-        <label for="funrun">Fun Run 5k</label><br>
+        <p>Selct a Race</p>
 
-        <input type="radio" id="hlaf" name="race">
-        <label for="half">Half Marathon</label><br>
+        <div> <input type="radio" id="funrun" name="race" value="funrun" id="funrun">
+            <label for="funrun">Fun Run 5k</label><br>
+        </div>
+        <div>
+            <input type="radio" id="hlaf" name="race" value="hlaf" id="hlaf">
+            <label for="half">Half Marathon</label><br>
+        </div>
+        <div>
+            <input type="radio" id="full" name="race" value="full" id="full">
+            <label for="full">Full Marathon</label><br>
+        </div><br>
 
-        <input type="radio" id="full" name="race">
-        <label for="full">Full Marathon</label><br>
 
 
 
 
-
-
-        <p>
+        <div>
             <label for="email">Email</label>
             <input type="text" name="email" id="email" required>
 
             <label for="password">Password</label>
             <input type="text" name="password" id="password" required>
-        </p>
+        </div><br>
 
-        <p>
-            <label for="age">Select Age Group</label>
+        <div>
+            <label for="division">Select Age Group</label>
             <select>
-                <option>18-30</option>
-                <option>30-50</option>
-                <option>50-60</option>
+                <option value="youth">18-30</option>
+                <option value="adult">30-50</option>
+                <option value="olders">50-60</option>
             </select>
 
-        </p>
+        </div>
 
         <button>Register!</button>
 
