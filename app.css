@@ -10,4 +10,10 @@ button {
 
 p {
     color: forestgreen;
+    background-color: lavender;
+}
+
+body{
+    background-color: rgb(73, 126, 21);
+
 }
