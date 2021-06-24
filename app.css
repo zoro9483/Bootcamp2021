@@ -1,14 +1,23 @@
+h1 {
+    width: fit-content;
+    text-align: center;
+    color: blueviolet;
+    background-color: indianred;
+}
+
 h2 {
     color: blueviolet;
     background-color: indianred;
 }
 
-button {
-    color:burlywood;
-    background-color: gold;
+h3 {
+    color: blueviolet;
+    background-color: indianred;
 }
 
+
 p {
+    text-align: center;
     color: forestgreen;
     background-color: lavender;
 }
