@@ -1,3 +1,13 @@
 h2 {
     color: blueviolet;
+    background-color: indianred;
+}
+
+button {
+    color:burlywood;
+    background-color: gold;
+}
+
+p {
+    color: forestgreen;
 }
