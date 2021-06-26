@@ -47,3 +47,8 @@ input[type="password"]{
 section[class="post"]{
     background-color: hotpink;
 }
+
+button:hover {
+    background-color: indigo;
+    color:khaki;
+}
