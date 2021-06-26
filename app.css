@@ -39,3 +39,11 @@ button{
 footer > a {
     color:forestgreen;
 }
+
+input[type="password"]{
+    color:gold
+}
+
+section[class="post"]{
+    background-color: hotpink;
+}
