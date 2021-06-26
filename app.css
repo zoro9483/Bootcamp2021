@@ -52,3 +52,21 @@ button:hover {
     background-color: indigo;
     color:khaki;
 }
+
+.post button:hover {
+    background-color: indigo;
+    color:khaki;
+}
+
+a:hover {
+    background-color: indigo;
+    color:khaki;
+}
+
+.post button:active{
+    background-color: lightblue;
+}
+
+.post:nth-last-of-type(2n){
+    background-color: lightcoral;
+}
