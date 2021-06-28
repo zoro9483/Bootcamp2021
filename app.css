@@ -101,4 +101,11 @@ p::selection{
     border-color: powderblue;
     border-style: groove;
     box-sizing: border-box;
+    border-radius: 50%;
+    text-align: end;
+
+}
+
+button {
+    padding: 15px 11px 10px 12px ;
 }
