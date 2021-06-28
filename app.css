@@ -74,3 +74,31 @@ a:hover {
 h2::first-letter{
     font-size: 50px;
 }
+
+p::selection{
+    background-color: lightseagreen;
+}
+
+#one {
+    background-color: rgb(10, 161, 129);
+    border-width: 52px;
+    border-color: powderblue;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#two {
+    background-color: rgb(139, 194, 38);
+    border-width: 15px;
+    border-color: powderblue;
+    border-style: groove;
+    box-sizing: border-box;
+}
+
+#three {
+    background-color: rgb(126, 10, 161);
+    border-width: 45px;
+    border-color: powderblue;
+    border-style: groove;
+    box-sizing: border-box;
+}
