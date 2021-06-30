@@ -80,7 +80,7 @@ p::selection{
 }
 
 #one {
-    background-color: rgb(10, 161, 129);
+    background-color: rgba(10, 161, 129, 0.6);
     border-width: 52px;
     border-color: powderblue;
     border-style: solid;
@@ -93,6 +93,8 @@ p::selection{
     border-color: powderblue;
     border-style: groove;
     box-sizing: border-box;
+    margin-left: 13px;
+    opacity: 0.2;
 }
 
 #three {
@@ -103,10 +105,43 @@ p::selection{
     box-sizing: border-box;
     border-radius: 50%;
     text-align: end;
+    margin-left: 12px;
 
 }
 
 button {
     padding: 15px 11px 10px 12px ;
     margin: 10px ;
+}
+
+/* position */
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: #3d405b;
+    border: 2px solid black;
+    margin: 10px;
+    display: inline-block;
+}
+
+#middle {
+    background-color: #81b29a;  
+}
+
+#static #middle {
+    position: static;
+    
+}
+
+#relative #middle {
+    position: relative;
+    top:100px;
+
+}
+
+#absolute #middle {
+    position: absolute;
+    top:50px;
+    lefe:50px;
 }
