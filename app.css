@@ -133,3 +133,15 @@ div {
     position: static;
     
 }
+
+#relative #middle {
+    position: relative;
+    top:100px;
+
+}
+
+#absolute #middle {
+    position: absolute;
+    top:50px;
+    lefe:50px;
+}
