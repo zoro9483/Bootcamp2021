@@ -94,6 +94,7 @@ p::selection{
     border-style: groove;
     box-sizing: border-box;
     margin-left: 13px;
+    opacity: 0.2;
 }
 
 #three {
