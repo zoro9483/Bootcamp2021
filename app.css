@@ -1,0 +1,17 @@
+.card {
+    display: inline-block;
+    margin-left: 10px;
+    width: 210px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .card img {
+      width: 200px;
+    border-image: 5px;
+    border-radius: 50%;
+    border: 5px solid rgb(236, 183, 191);
+  }
+  
+  
