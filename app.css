@@ -14,4 +14,6 @@
     border: 5px solid rgb(236, 183, 191);
   }
   
-  
+  #cat {
+    position: absolute;
+    left: 0px;
